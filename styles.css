@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
   }
   
   body {
@@ -70,12 +71,13 @@
   }
 
   .score {
-    width: 90px;
+    width: 7ch;
     position: absolute;
     right: 50px;
     top: 40%;
     background-color: #000;
     color: lime;
+    line-height: 1.5;
     font-size: 20px;
     font-weight: bold;
     padding: 8px;
