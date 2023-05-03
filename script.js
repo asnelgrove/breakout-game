@@ -52,7 +52,7 @@ for (let i=0; i<brickRowCount; i++) {
         const x = i * (brickInfo.w + brickInfo.padding) + brickInfo.offsetX;
         const y = j * (brickInfo.h + brickInfo.padding) + brickInfo.offsetY;
         //give each brick a unique color in rgb
-        const color = 'rgb(' + Math.floor(Math.random() * 255) + ',' + Math.floor(Math.random() * 255) + ',' + Math.floor(Math.random() * 255) + ')';
+        const color = 'rgb(' + Math.floor((Math.random() + 0.1) * 255) + ',' + Math.floor((Math.random() + 0.1) * 255) + ',' + Math.floor((Math.random() + 0.1) * 255) + ')';
         // update the brick object
         bricks[i][j] = {x, y, color, ...brickInfo}
     }
